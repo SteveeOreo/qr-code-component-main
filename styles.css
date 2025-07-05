@@ -1,0 +1,74 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  :root {
+    --white: hsl(0, 0%, 100%);
+    --slate-300: hsl(212, 45%, 89%);
+    --slate-500: hsl(216, 15%, 48%);
+    --slate-900: hsl(218, 44%, 22%);
+  }
+  
+  body {
+    background-color: var(--slate-300);
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  /* Card Styles */
+  .card {
+    background-color: var(--white);
+    width: 320px;
+    height: 499px;
+    padding: 16px;
+    border-radius: 20px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+
+  /* QR Image */
+  .qr-image {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 20px;
+  }
+  
+  /* Text */
+  .text-content h2 {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--slate-900);
+    margin-bottom: 12px;
+  }
+  
+  .text-content p {
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--slate-500);
+    line-height: 1.4;
+  }
+
+  @media (min-width: 768px) {
+    .card {
+      width: 350px;
+      height: auto;
+      padding: 24px;
+    }
+  
+    .text-content h2 {
+      font-size: 20px;
+    }
+  
+    .text-content p {
+      font-size: 16px;
+    }
+  }
+  
