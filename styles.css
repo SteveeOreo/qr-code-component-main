@@ -55,7 +55,7 @@
     color: var(--slate-500);
     line-height: 1.4;
   }
-
+   /* Responsiveness */
   @media (min-width: 768px) {
     .card {
       width: 350px;
