@@ -4,12 +4,12 @@ This is a responsive QR code component challenge from [Frontend Mentor](https://
 
 [QR Code Component Screenshot](./images/Final%20Screenshot.png)
 
- # 🔗 Live Demo
+# 🔗 Live Demo
+
 [Solution URL](http://127.0.0.1:5500/index.html)  
 [Github page](https://github.com/SteveeOreo/qr-code-component-main)
 
-
- # 📁 Project Structure
+# 📁 Project Structure
 
 qr-code-component-main/
 ├── images/ # QR code image and favicon
@@ -20,7 +20,6 @@ qr-code-component-main/
 ├── README.md # Project README
 └── style-guide.md # Style guide (colors, fonts)
 
-
 ## 💡 Features
 
 - ✅ Mobile-first layout (375px)
@@ -29,7 +28,6 @@ qr-code-component-main/
 - ✅ Uses HSL color variables and Google Fonts
 - ✅ Accessible `alt` text for image
 
-
 ## 🛠️ Built With
 
 - HTML5
@@ -37,14 +35,12 @@ qr-code-component-main/
 - Google Fonts (Outfit)
 - Frontend Mentor design specs
 
-
 ## 🧠 What I Learned
 
 - How to create responsive layouts using Flexbox and media queries.
 - How to use HSL color values and CSS custom properties (`--variable`).
 - How to structure a clean and maintainable HTML/CSS project.
 - The value of pixel-perfect implementation and design precision.
-
 
 ## 📸 Final Screenshot
 
@@ -54,4 +50,4 @@ qr-code-component-main/
 
 - Website - [Stephen Ekwueme Chiazam](https://sites.google.com/view/ekwueme-stephen-chiazam/home)
 - Frontend Mentor - [@SteveeOreo](https://www.frontendmentor.io/profile/@SteveeOreo)
-- Twitter - [@Steve__Oreo](https://x.com/Steve__Oreo)
+- Twitter - [@Steve\_\_Oreo](https://x.com/Steve__Oreo)
